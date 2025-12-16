@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
-import skinCloseup from "@/assets/skin-closeup.jpg";
-import coupleWellness from "@/assets/couple-wellness.jpg";
-import wellnessPeople from "@/assets/wellness-people.jpg";
+import mosque4 from "@/assets/mosque-4.jpeg";
+import mosque5 from "@/assets/mosque-5.jpeg";
+import mosqueHero from "@/assets/mosque-hero.jpeg";
 
 const TreatmentsSection = () => {
   return (
@@ -10,15 +10,15 @@ const TreatmentsSection = () => {
         <div className="grid lg:grid-cols-2 gap-10 items-start mb-12">
           <div>
             <p className="text-xs text-muted-foreground mb-4">
-              Never let a parcel delivery rule your entire schedule again.
+              Mari bersama-sama membangun rumah Allah
             </p>
             <h2 className="text-3xl md:text-4xl font-serif leading-tight text-foreground">
-              Have better sex with fast-acting, long-lasting quality treatments
+              Galeri Pembangunan Masjid Raudhatul Jannah
             </h2>
           </div>
           <div className="flex justify-end">
             <Button variant="hero" size="default">
-              See if You are Eligible
+              Infaq & Donasi
             </Button>
           </div>
         </div>
@@ -26,22 +26,22 @@ const TreatmentsSection = () => {
         <div className="grid md:grid-cols-3 gap-4">
           <div className="rounded-xl overflow-hidden aspect-[3/4]">
             <img
-              src={skinCloseup}
-              alt="Close-up of healthy glowing skin"
+              src={mosque4}
+              alt="Masjid Raudhatul Jannah - tampak atas"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="rounded-xl overflow-hidden aspect-[3/4]">
             <img
-              src={coupleWellness}
-              alt="Happy couple together"
+              src={mosque5}
+              alt="Masjid Raudhatul Jannah - tampak samping"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="rounded-xl overflow-hidden aspect-[3/4]">
             <img
-              src={wellnessPeople}
-              alt="People enjoying wellness lifestyle"
+              src={mosqueHero}
+              alt="Masjid Raudhatul Jannah - tampak depan"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>

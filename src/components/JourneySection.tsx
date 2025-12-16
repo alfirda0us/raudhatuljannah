@@ -2,11 +2,14 @@ const JourneySection = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-serif text-foreground leading-tight">
-          How Forma helps you
+        <h2 className="text-3xl md:text-4xl font-serif text-foreground leading-tight mb-6">
+          Mari Bersama Memakmurkan
           <br />
-          in your Sexual Wellness journey
+          Masjid Raudhatul Jannah
         </h2>
+        <p className="text-muted-foreground max-w-xl mx-auto">
+          Jadilah bagian dari keluarga besar Masjid Raudhatul Jannah. Bersama kita tingkatkan keimanan dan ketaqwaan kepada Allah SWT.
+        </p>
       </div>
     </section>
   );

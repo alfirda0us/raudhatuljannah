@@ -1,33 +1,37 @@
 import { Button } from "@/components/ui/button";
-import heroPortrait from "@/assets/hero-portrait.jpg";
+import mosqueHero from "@/assets/mosque-hero.jpeg";
 
 const HeroSection = () => {
   return (
     <section className="relative h-screen pt-16 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src={heroPortrait}
-          alt="Serene woman with closed eyes representing wellness and self-care"
-          className="w-full h-full object-cover object-center scale-110"
+          src={mosqueHero}
+          alt="Masjid Raudhatul Jannah - Taman Nirwana Bekasi"
+          className="w-full h-full object-cover object-center"
         />
+        <div className="absolute inset-0 bg-gradient-to-r from-mosque-dark/60 to-transparent" />
       </div>
       
       <div className="relative z-10 container mx-auto px-6 h-full flex flex-col justify-center">
         <div className="max-w-lg">
-          <h1 className="text-4xl md:text-5xl font-serif leading-[1.1] text-foreground mb-4">
-            Get clarity on your
+          <h1 className="text-4xl md:text-5xl font-serif leading-[1.1] text-primary-foreground mb-4">
+            Masjid
             <br />
-            <span className="italic">sexual health</span>
+            <span className="italic">Raudhatul Jannah</span>
           </h1>
+          <p className="text-primary-foreground/80 text-sm mb-6 max-w-sm">
+            Taman Nirwana Bekasi 17115 - Tempat beribadah dan mendekatkan diri kepada Allah SWT
+          </p>
           <Button variant="hero" size="default" className="mt-4">
-            Find my treatment
+            Lihat Jadwal Sholat
           </Button>
         </div>
       </div>
       
       <div className="absolute bottom-0 left-0 right-0 z-10 overflow-hidden">
-        <p className="text-[8vw] md:text-[10vw] font-serif italic text-foreground/10 whitespace-nowrap leading-none pb-4 tracking-tight">
-          forma<sup className="text-[3vw]">®</sup>health
+        <p className="text-[8vw] md:text-[10vw] font-serif italic text-primary-foreground/10 whitespace-nowrap leading-none pb-4 tracking-tight">
+          Raudhatul Jannah
         </p>
       </div>
     </section>
