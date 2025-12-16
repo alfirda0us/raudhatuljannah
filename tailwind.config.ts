@@ -26,6 +26,7 @@ export default {
         cream: {
           DEFAULT: "hsl(var(--cream))",
           dark: "hsl(var(--cream-dark))",
+          text: "hsl(var(--cream-text))",
         },
         olive: {
           DEFAULT: "hsl(var(--olive))",
