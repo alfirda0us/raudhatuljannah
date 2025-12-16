@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
-        sans: ['DM Sans', 'system-ui', 'sans-serif'],
+        serif: ['Amiri', 'Georgia', 'serif'],
+        sans: ['Poppins', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -28,12 +28,13 @@ export default {
           dark: "hsl(var(--cream-dark))",
           text: "hsl(var(--cream-text))",
         },
-        olive: {
-          DEFAULT: "hsl(var(--olive))",
-          light: "hsl(var(--olive-light))",
+        "mosque-green": {
+          DEFAULT: "hsl(var(--mosque-green))",
+          light: "hsl(var(--mosque-green-light))",
         },
-        "warm-brown": "hsl(var(--warm-brown))",
-        "warm-gray": "hsl(var(--warm-gray))",
+        "mosque-dark": "hsl(var(--mosque-dark))",
+        "warm-gold": "hsl(var(--warm-gold))",
+        "soft-gray": "hsl(var(--soft-gray))",
         tan: "hsl(var(--tan))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
