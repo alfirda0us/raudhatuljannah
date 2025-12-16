@@ -3,35 +3,31 @@ import heroPortrait from "@/assets/hero-portrait.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen pt-20">
+    <section className="relative h-screen pt-16 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
           src={heroPortrait}
           alt="Serene woman with closed eyes representing wellness and self-care"
-          className="w-full h-full object-cover object-top"
+          className="w-full h-full object-cover object-center scale-110"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/60 via-background/20 to-transparent" />
       </div>
       
-      <div className="relative z-10 container mx-auto px-6 pt-32 pb-20 min-h-screen flex items-center">
-        <div className="max-w-xl">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif leading-tight text-foreground mb-6 opacity-0 animate-fade-in">
+      <div className="relative z-10 container mx-auto px-6 h-full flex flex-col justify-center">
+        <div className="max-w-lg">
+          <h1 className="text-4xl md:text-5xl font-serif leading-[1.1] text-foreground mb-4">
             Get clarity on your
             <br />
             <span className="italic">sexual health</span>
           </h1>
-          <p className="text-lg text-muted-foreground mb-8 opacity-0 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Personalized treatments delivered discreetly to your door.
-          </p>
-          <Button variant="hero" size="lg" className="opacity-0 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+          <Button variant="hero" size="default" className="mt-4">
             Find my treatment
           </Button>
         </div>
       </div>
       
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
-        <p className="text-8xl md:text-9xl font-serif italic text-foreground/10 whitespace-nowrap">
-          forma<sup className="text-4xl">®</sup>health
+      <div className="absolute bottom-0 left-0 right-0 z-10 overflow-hidden">
+        <p className="text-[8vw] md:text-[10vw] font-serif italic text-foreground/10 whitespace-nowrap leading-none pb-4 tracking-tight">
+          forma<sup className="text-[3vw]">®</sup>health
         </p>
       </div>
     </section>
