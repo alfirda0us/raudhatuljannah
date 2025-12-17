@@ -12,7 +12,7 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section className="py-12 md:py-20 bg-background">
+    <section id="kegiatan" className="py-12 md:py-20 bg-background scroll-mt-20">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
           <div>
