@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-10 text-sm">
           <a href="#jadwal-sholat" className="text-foreground transition-colors hover:text-primary">Jadwal Sholat</a>
           <a href="#kegiatan" className="text-foreground transition-colors hover:text-primary">Kegiatan</a>
-          <a href="#donasi" className="text-foreground transition-colors hover:text-primary">Donasi</a>
+          <a href="#galleri" className="text-foreground transition-colors hover:text-primary">Galleri</a>
         </div>
 
         <a href="/" className="md:absolute md:left-1/2 md:-translate-x-1/2 flex items-center gap-2">
@@ -18,7 +18,8 @@ const Navbar = () => {
         </a>
         
         <div className="hidden md:flex items-center gap-10 text-sm">
-          <a href="#tentang" className="text-foreground transition-colors hover:text-primary">Tentang Kami</a>
+          <a href="#donasi" className="text-foreground transition-colors hover:text-primary">Donasi</a>
+          <a href="#keistimewaan" className="text-foreground transition-colors hover:text-primary">Tentang Kami</a>
           <a href="#kontak" className="text-foreground transition-colors hover:text-primary">Kontak</a>
         </div>
 

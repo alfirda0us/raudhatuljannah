@@ -10,7 +10,7 @@ const stats = [
 
 const BenefitsSection = () => {
   return (
-    <section className="bg-mosque-dark">
+    <section id="keistimewaan" className="bg-mosque-dark">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2">
           <div className="relative aspect-square lg:aspect-auto">

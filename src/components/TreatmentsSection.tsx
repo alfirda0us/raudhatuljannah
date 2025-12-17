@@ -5,7 +5,7 @@ import mosqueHero from "@/assets/mosque-hero.jpeg";
 
 const TreatmentsSection = () => {
   return (
-    <section id="donasi" className="py-12 md:py-20 bg-secondary scroll-mt-20">
+    <section id="galleri" className="py-12 md:py-20 bg-secondary scroll-mt-20">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-8 md:mb-12">
           <div>
@@ -18,7 +18,7 @@ const TreatmentsSection = () => {
           </div>
           <div className="flex sm:justify-end">
             <Button variant="hero" size="default">
-              Infaq & Donasi
+              <a href="#donasi" className="text-foreground transition-colors hover:text-primary">Infaq & Donasi</a>
             </Button>
           </div>
         </div>

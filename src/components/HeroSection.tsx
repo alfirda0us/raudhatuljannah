@@ -24,7 +24,7 @@ const HeroSection = () => {
             Taman Nirwana Bekasi 17115 - Tempat beribadah dan mendekatkan diri kepada Allah SWT
           </p>
           <Button variant="hero" size="default" className="mt-4 bg-background/5 backdrop-blur-sm border border-white/20">
-            <p className="font-light">Lihat Jadwal Sholat</p>
+            <a href="#donasi" className="font-light">Infaq & Donasi</a>
           </Button>
         </div>
       </div>
