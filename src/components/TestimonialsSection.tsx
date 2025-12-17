@@ -19,9 +19,6 @@ const TestimonialsSection = () => {
             <br />
             Masjid Raudhatul Jannah
           </h2>
-          <Button variant="outline" size="sm" className="mt-4">
-            Download Jadwal Lengkap
-          </Button>
         </div>
         
         <div className="grid md:grid-cols-2 gap-6">
