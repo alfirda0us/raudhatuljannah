@@ -1,4 +1,4 @@
-import mosqueLogo from "@/assets/mosque-logo.jpeg";
+import mosqueLogo from "@/assets/logo.svg";
 
 const Footer = () => {
   return (
