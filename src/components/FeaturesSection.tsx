@@ -12,9 +12,9 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section className="py-20 bg-background">
-      <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+    <section className="py-12 md:py-20 bg-background">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
           <div>
             <h2 className="text-3xl md:text-4xl font-serif leading-tight text-foreground mb-4">
               Pusat Ibadah &

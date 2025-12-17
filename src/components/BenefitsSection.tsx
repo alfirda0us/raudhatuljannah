@@ -28,7 +28,7 @@ const BenefitsSection = () => {
             </div>
           </div>
           
-          <div className="p-8 lg:p-12 flex flex-col justify-center">
+          <div className="p-6 md:p-8 lg:p-12 flex flex-col justify-center">
             <p className="text-primary-foreground/70 text-sm mb-8 max-w-sm leading-relaxed">
               Masjid Raudhatul Jannah hadir sebagai pusat ibadah dan kegiatan islami untuk masyarakat Taman Nirwana dan sekitarnya.
             </p>

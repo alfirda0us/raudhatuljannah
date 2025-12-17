@@ -2,17 +2,17 @@ import mosqueLogo from "@/assets/logo-light.svg";
 
 const Footer = () => {
   return (
-    <footer className="py-10 bg-mosque-dark">
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <div className="flex items-center gap-3">
-            <img src={mosqueLogo} alt="Logo Masjid" className="w-12 h-12 rounded-full fill-current text-white dark:text-black" />
+    <footer className="py-8 md:py-10 bg-mosque-dark">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="flex flex-col items-center gap-6 text-center md:text-left md:flex-row md:justify-between">
+          <div className="flex items-center gap-3">
+            <img src={mosqueLogo} alt="Logo Masjid" className="w-10 h-10 md:w-12 md:h-12 rounded-full" />
             <div>
-              <p className="text-lg font-serif text-primary-foreground">Masjid Raudhatul Jannah</p>
+              <p className="text-base md:text-lg font-serif text-primary-foreground">Masjid Raudhatul Jannah</p>
               <p className="text-xs text-primary-foreground/60">Taman Nirwana Bekasi 17115</p>
             </div>
-            </div>
-          <div className="flex items-center gap-6">
+          </div>
+          <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6">
             <a href="#" className="text-xs text-primary-foreground/60 hover:text-primary-foreground transition-colors">
               Jadwal Sholat
             </a>
@@ -24,7 +24,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-xs text-primary-foreground/50">
-            © 2024 Masjid Raudhatul Jannah Taman Nirwana.
+            © 2024 Masjid Raudhatul Jannah
           </p>
         </div>
       </div>
