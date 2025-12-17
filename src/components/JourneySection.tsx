@@ -1,8 +1,8 @@
 const JourneySection = () => {
   return (
-    <section className="py-20 bg-background">
-      <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-serif text-foreground leading-tight mb-6">
+    <section className="py-12 md:py-20 bg-background">
+      <div className="container mx-auto px-4 md:px-6 text-center">
+        <h2 className="text-2xl md:text-4xl font-serif text-foreground leading-tight mb-6">
           Mari Bersama Memakmurkan
           <br />
           Masjid Raudhatul Jannah
