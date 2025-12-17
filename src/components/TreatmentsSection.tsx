@@ -5,7 +5,7 @@ import mosqueHero from "@/assets/mosque-hero.jpeg";
 
 const TreatmentsSection = () => {
   return (
-    <section className="py-12 md:py-20 bg-secondary">
+    <section id="donasi" className="py-12 md:py-20 bg-secondary scroll-mt-20">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-8 md:mb-12">
           <div>

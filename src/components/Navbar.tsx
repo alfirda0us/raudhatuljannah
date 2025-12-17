@@ -8,9 +8,9 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background">
       <div className="container mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
         <div className="hidden md:flex items-center gap-6 text-sm">
-          <a href="#" className="text-foreground transition-colors">Jadwal Sholat</a>
-          <a href="#" className="text-foreground transition-colors">Kegiatan</a>
-          <a href="#" className="text-foreground transition-colors">Donasi</a>
+          <a href="#jadwal-sholat" className="text-foreground transition-colors hover:text-primary">Jadwal Sholat</a>
+          <a href="#kegiatan" className="text-foreground transition-colors hover:text-primary">Kegiatan</a>
+          <a href="#donasi" className="text-foreground transition-colors hover:text-primary">Donasi</a>
         </div>
 
         <a href="/" className="md:absolute md:left-1/2 md:-translate-x-1/2 flex items-center gap-2">
@@ -18,8 +18,8 @@ const Navbar = () => {
         </a>
         
         <div className="hidden md:flex items-center gap-6 text-sm">
-          <a href="#" className="text-foreground transition-colors">Tentang Kami</a>
-          <a href="#" className="text-foreground transition-colors">Kontak</a>
+          <a href="#tentang" className="text-foreground transition-colors hover:text-primary">Tentang Kami</a>
+          <a href="#kontak" className="text-foreground transition-colors hover:text-primary">Kontak</a>
         </div>
 
         <button 
@@ -34,11 +34,11 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-background border-t border-border">
           <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
-            <a href="#" className="text-foreground py-2">Jadwal Sholat</a>
-            <a href="#" className="text-foreground py-2">Kegiatan</a>
-            <a href="#" className="text-foreground py-2">Donasi</a>
-            <a href="#" className="text-foreground py-2">Tentang Kami</a>
-            <a href="#" className="text-foreground py-2">Kontak</a>
+            <a href="#jadwal-sholat" onClick={() => setIsOpen(false)} className="text-foreground py-2 hover:text-primary">Jadwal Sholat</a>
+            <a href="#kegiatan" onClick={() => setIsOpen(false)} className="text-foreground py-2 hover:text-primary">Kegiatan</a>
+            <a href="#donasi" onClick={() => setIsOpen(false)} className="text-foreground py-2 hover:text-primary">Donasi</a>
+            <a href="#tentang" onClick={() => setIsOpen(false)} className="text-foreground py-2 hover:text-primary">Tentang Kami</a>
+            <a href="#kontak" onClick={() => setIsOpen(false)} className="text-foreground py-2 hover:text-primary">Kontak</a>
           </div>
         </div>
       )}
