@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
-import mosque4 from "@/assets/mosque-4.jpeg";
-import mosque5 from "@/assets/mosque-5.jpeg";
-import mosqueHero from "@/assets/mosque-hero.jpeg";
+import mosque4 from "@/assets/mosque-4.jpg";
+import mosque5 from "@/assets/mosque-5.jpg";
+import mosqueHero from "@/assets/mosque-1.jpg";
 
 const TreatmentsSection = () => {
   return (

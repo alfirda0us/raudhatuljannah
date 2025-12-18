@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import mosqueHero from "@/assets/mosque-hero.jpeg";
+import mosqueHero from "@/assets/mosque-1.jpg";
 
 const HeroSection = () => {
   return (
@@ -16,12 +16,12 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 h-full flex flex-col justify-center">
         <div className="max-w-5xl">
           <p className="text-4xl md:text-5xl leading-[1.1] text-primary-foreground mb-4 text-poppins fw-300">
-            Shalatlah Sebelum
+            Shalat Itu Adalah
             <br />
-            Di Shalatkan
+            Tiang Agama
           </p>
           <p className="text-primary-foreground/80 text-sm mb-3 max-w-sm">
-            Taman Nirwana Bekasi 17115 - Tempat beribadah dan mendekatkan diri kepada Allah SWT
+            Taman Nirwana Bekasi Timur - Tempat beribadah dan mendekatkan diri kepada Allah SWT
           </p>
           <Button variant="hero" size="default" className="mt-4 bg-background/5 backdrop-blur-sm border border-white/20">
             <a href="#donasi" className="font-light">Infaq & Donasi</a>
