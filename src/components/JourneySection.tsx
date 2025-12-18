@@ -15,13 +15,13 @@ const JourneySection = () => {
       </div>
 
         <div className="flex justify-center">
-          <div className="bg-white rounded-2xl p-4 md:p-6 max-w-sm">
+          <div className="bg-white rounded-2xl p-4 md:p-6 max-w-sm bg-card border border-border/50 rounded-lg p-4 hover:border-primary/30 transition-colors">
             <img
               src={qrisWakaf}
               alt="QRIS Wakaf Masjid Raudhatul Jannah"
               className="w-full h-auto rounded-lg"
             />
-            <p className="text-center text-foreground text-sm mt-4">
+            <p className="text-center text-foreground/80 text-sm mt-4">
               Scan dengan aplikasi pembayaran favorit Anda
             </p>
           </div>

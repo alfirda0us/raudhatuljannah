@@ -9,7 +9,7 @@ const Footer = () => {
             <img src={mosqueLogo} alt="Logo Masjid" className="w-10 h-10 md:w-12 md:h-12 rounded-full" />
             <div>
               <p className="text-base md:text-lg font-serif text-primary-foreground">Masjid Raudhatul Jannah</p>
-              <p className="text-xs text-primary-foreground/60">Taman Nirwana Bekasi 17115</p>
+              <p className="text-xs text-primary-foreground/60">Taman Nirwana Bekasi Timur</p>
             </div>
           </div>
           <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6">
@@ -24,7 +24,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-xs text-primary-foreground/50">
-            © 2024 Masjid Raudhatul Jannah
+            © 2025 Masjid Raudhatul Jannah
           </p>
         </div>
       </div>

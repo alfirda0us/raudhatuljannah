@@ -18,15 +18,12 @@ const FeaturesSection = () => {
           <div>
             <h2 className="text-3xl md:text-4xl font-serif leading-tight text-foreground mb-4">
               Pusat Ibadah &
-              <br />
+              <br/>
               Kegiatan Islami
             </h2>
             <p className="text-sm text-muted-foreground mb-6 max-w-sm leading-relaxed">
               Masjid Raudhatul Jannah menyediakan berbagai program kegiatan untuk meningkatkan keimanan dan mempererat ukhuwah islamiyah.
             </p>
-            <Button variant="hero" size="sm">
-              Lihat Semua Kegiatan
-            </Button>
           </div>
           
           <div className="grid grid-cols-2 gap-3">
