@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import mosqueHero from "@/assets/mosque-1.jpg";
+import mosqueHero from "@/assets/mosque-1.webp";
 
 const HeroSection = () => {
   return (

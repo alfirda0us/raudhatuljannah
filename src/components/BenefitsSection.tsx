@@ -1,4 +1,4 @@
-import mosque2 from "@/assets/mosque-2.jpg";
+import mosque2 from "@/assets/mosque-2.webp";
 import { Users, Book, Heart, Home } from "lucide-react";
 
 const stats = [

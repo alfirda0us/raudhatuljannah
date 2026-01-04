@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import mosque3 from "@/assets/mosque-3.jpg";
+import mosque3 from "@/assets/mosque-3.webp";
 
 const prayerTimes = [
   { name: "Subuh", time: "04:30" },
