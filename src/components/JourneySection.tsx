@@ -15,7 +15,7 @@ const JourneySection = () => {
       </div>
 
         <div className="flex justify-center">
-          <div className="bg-white rounded-2xl p-4 md:p-6 max-w-sm bg-card border border-border/50 rounded-lg p-4 hover:border-primary/30 transition-colors">
+          <div className="bg-white md:p-6 max-w-sm bg-card border border-border/50 rounded-lg p-4 hover:border-primary/30 transition-colors">
             <img
               src={qrisWakaf}
               alt="QRIS Wakaf Masjid Raudhatul Jannah"

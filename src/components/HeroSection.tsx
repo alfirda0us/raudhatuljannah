@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 h-full flex flex-col justify-center">
         <div className="max-w-5xl">
           <p className="text-4xl md:text-5xl leading-[1.1] text-primary-foreground mb-4 text-poppins fw-300">
-            Shalat Itu Adalah
+            Shalat Adalah
             <br />
             Tiang Agama
           </p>
